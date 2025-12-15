@@ -13,6 +13,8 @@ public class LoginServlet extends HttpServlet {
         // Get parameters from request
         String uname = req.getParameter("uname");
         String pass = req.getParameter("pass");
+                   String pass = req.getParameter("pass");
+
 
         // Simple validation
         if ("admin".equals(uname) && "1234".equals(pass)) {
